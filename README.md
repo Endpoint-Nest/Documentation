@@ -9,6 +9,7 @@ This repository is used for the public documentation website of Endpoint Nest, b
 ### All Public Repositories of Endpoint Nest
 - [Documentation](https://github.com/Endpoint-Nest/Documentation) (**Currently Viewing**)
 - [SDK for Node JS](https://github.com/Endpoint-Nest/sdk.nodejs)
+- [SDK for Luau, Roblox](https://github.com/Endpoint-Nest/sdk.luau)
 
 ---
 
