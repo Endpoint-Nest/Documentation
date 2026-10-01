@@ -1,4 +1,4 @@
-# Endpoint Nest: Docs
+# Endpoint Nest: Documentation
 # ⚠️ | Endpoint Nest is under development; content may be inaccurate or missing!
 
 ## Repositories
@@ -7,8 +7,8 @@
 This repository is used for the public documentation website of Endpoint Nest, built with [React](https://react.dev). Contributions are welcome if something is missing, wording is strange or you want to make it just a bit more consistent. We're all for it.
 
 ### All Public Repositories of Endpoint Nest
-- [Endpoint Nest Docs](https://github.com/kablankooo-dloth/endpointnest.docs) (**Currently Viewing**)
-- [Endpoint Nest SDK: Node JS](https://github.com/kablankooo-dloth/endpointnest.sdk.nodejs)
+- [Documentation](https://github.com/Endpoint-Nest/Documentation) (**Currently Viewing**)
+- [SDK for Node JS](https://github.com/Endpoint-Nest/sdk.nodejs)
 
 ---
 
