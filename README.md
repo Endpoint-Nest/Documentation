@@ -8,6 +8,7 @@ This repository is used for the public documentation website of Endpoint Nest, b
 
 ### All Public Repositories of Endpoint Nest
 - [Endpoint Nest Docs](https://github.com/kablankooo-dloth/endpointnest.docs) (**Currently Viewing**)
+- [Endpoint Nest SDK: Node JS](https://github.com/kablankooo-dloth/endpointnest.sdk.nodejs)
 
 ---
 
