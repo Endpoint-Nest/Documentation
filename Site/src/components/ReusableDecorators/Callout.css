@@ -1,0 +1,127 @@
+.callout {
+  position: relative;
+
+  background: color-mix(
+    in srgb,
+    var(--callout-color) 8%,
+    transparent
+  );
+
+  border-radius: 8px;
+  overflow: hidden;
+
+  padding: 16px 16px 16px 22px;
+  margin: 20px 0;
+}
+
+.callout::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 5px;
+
+  background: var(--callout-color);
+
+  border-radius: 8px 0 0 8px;
+}
+
+.callout-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--callout-color);
+
+  margin-bottom: 8px;
+}
+
+.callout-title {
+  font-weight: 600;
+}
+
+.callout-content {
+  line-height: 1.6;
+}
+
+
+
+/* ========================= */
+/* Collapsable Component     */
+/* ========================= */
+
+.collapsable {
+  position: relative;
+
+  background: color-mix(
+    in srgb,
+    var(--callout-color) 8%,
+    transparent
+  );
+
+  border-radius: 8px;
+  overflow: hidden;
+
+  margin: 20px 0;
+}
+
+.collapsable::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 5px;
+
+  background: var(--callout-color);
+
+  border-radius: 8px 0 0 8px;
+}
+
+.collapsable-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 14px 16px 14px 22px;
+
+  cursor: pointer;
+  user-select: none;
+
+  list-style: none;
+}
+
+.collapsable-header::-webkit-details-marker {
+  display: none;
+}
+
+.collapsable-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--callout-color);
+
+  font-weight: 600;
+}
+
+.collapsable-content {
+  padding: 0 16px 16px 22px;
+
+  line-height: 1.6;
+}
+
+.collapsable-chevron {
+  transition: transform 0.2s ease;
+}
+
+.collapsable[open] .collapsable-chevron {
+  transform: rotate(180deg);
+}
